@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/go-redis/redis/v7"
+	"github.com/canberkaslan/redis"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
