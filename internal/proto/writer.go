@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/canberkaslan/redis/internal/util"
+	"github.com/go-redis/redis/internal/util"
 )
 
 type Writer struct {
