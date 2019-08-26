@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/canberkaslan/redis"
+	"github.com/go-redis/redis"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
