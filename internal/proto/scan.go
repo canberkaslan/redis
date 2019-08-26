@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/canberkaslan/redis/internal/util"
+	"github.com/go-redis/redis/internal/util"
 )
 
 func Scan(b []byte, v interface{}) error {
