@@ -3,8 +3,8 @@ package redis
 import (
 	"context"
 
-	"github.com/go-redis/redis/v7/internal/pool"
-	"github.com/go-redis/redis/v7/internal/proto"
+	"github.com/canberkaslan/redis/internal/pool"
+	"github.com/canberkaslan/redis/internal/proto"
 )
 
 // TxFailedErr transaction redis failed.
