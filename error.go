@@ -6,7 +6,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/canberkaslan/redis/internal/proto"
+	"github.com/go-redis/redis/internal/proto"
 )
 
 func isRetryableError(err error, retryTimeout bool) bool {
